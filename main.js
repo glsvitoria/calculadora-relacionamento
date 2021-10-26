@@ -42,6 +42,9 @@ botao.onclick = function(){
     }else if(notaFinal > 80){
         resultadoLocal.textContent = "Quase um romance, só precisam ser exclusivos"
     }
+
+    const pontuacao = document.querySelector('p#pontuacao').textContent = notaFinal
+
     const resposta = document.querySelector('.resposta-overlay').classList.add("active")
 }
 

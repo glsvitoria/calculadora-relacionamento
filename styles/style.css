@@ -105,6 +105,10 @@ div.resposta-overlay.active div.resposta p {
     display: block;
 }
 
+div.resposta-overlay.active div.resposta p#pontuacao {
+    font-size: 2rem;
+}
+
 
 div.resposta {
     background: #F0F2f5;
