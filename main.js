@@ -4,20 +4,22 @@ botao.onclick = function(){
     const intesidade = document.querySelector('.intesidade').value
 
     const freq = document.querySelector('input[name="inlineRadioOptions1"]:checked').value
+
+
     
     const ifText = freq / 20
 
     const tempo = document.querySelector('.tempo').value
 
-    const YoN1 = document.querySelector('input[name="inlineRadioOptions2"]:checked').value
+    const YoN1 = parseInt(document.querySelector('input[name="inlineRadioOptions2"]:checked').value)
 
-    const YoN2 = document.querySelector('input[name="inlineRadioOptions3"]:checked').value
+    const YoN2 = parseInt(document.querySelector('input[name="inlineRadioOptions3"]:checked').value)
 
-    const YoN3 = document.querySelector('input[name="inlineRadioOptions4"]:checked').value
+    const YoN3 = parseInt(document.querySelector('input[name="inlineRadioOptions4"]:checked').value)
 
-    const YoN4 = document.querySelector('input[name="inlineRadioOptions5"]:checked').value
+    const YoN4 = parseInt(document.querySelector('input[name="inlineRadioOptions5"]:checked').value)
 
-    const YoN5 = document.querySelector('input[name="inlineRadioOptions6"]:checked').value
+    const YoN5 = parseInt(document.querySelector('input[name="inlineRadioOptions6"]:checked').value)
     
     const select = document.getElementById('inlineFormCustomSelectPref')
     var notaSexual = select.options[select.selectedIndex].value
