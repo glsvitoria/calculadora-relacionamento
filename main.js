@@ -37,9 +37,9 @@ botao.onclick = function(){
     }else if(notaFinal > 45 && notaFinal <= 80){
         resultadoLocal.textContent = "Rolo"
     }else if(notaFinal > 80 && YoN1 == 15){
-        resultadoLocal.textContent = "Romance"
+        resultadoLocal.textContent = "Namoro"
     }else if(notaFinal > 80){
-        resultadoLocal.textContent = "Quase um romance, só precisam ser exclusivos"
+        resultadoLocal.textContent = "Romance"
     }
 
     const pontuacao = document.querySelector('p#pontuacao').textContent = notaFinal
