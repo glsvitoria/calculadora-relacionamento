@@ -27,7 +27,6 @@ botao.onclick = function(){
     const notaFinal = ((intesidade * freq) / 100) + ((ifText * tempo) / 4) + (((YoN1 + YoN2 + YoN3 + YoN4 - YoN5) * notaSexual) / 40)
 
     const resultadoLocal = document.getElementById('resultado')
-    console.log(resultadoLocal)
 
     if(notaFinal > 0 && notaFinal <= 15){
         resultadoLocal.textContent = "Lance"
@@ -44,6 +43,7 @@ botao.onclick = function(){
     }
 
     const pontuacao = document.querySelector('p#pontuacao').textContent = notaFinal
+    console.log(notaFinal)
 
     const resposta = document.querySelector('.resposta-overlay').classList.add("active")
 }
