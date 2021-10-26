@@ -124,4 +124,63 @@ div.resposta p, h3 {
 
 div.resposta p {
     font-size: 2.4rem;
+
+}@media screen and (max-width: 1000px) {
+    main {
+        width: 50%;
+    }
+
+    label {
+        display: block;
+    }
+
+    label.my-1.mr-2 {
+        display: inline-block;
+        margin-bottom: 1rem;
+    }
+
+    div.resposta {
+        padding: 3rem;
+        font-size: 5rem;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    main {
+        width: 60%;
+    }
+
+    h1 {
+        font-size: 2.6rem;
+    }
+
+    p, label, input {
+        font-size: 1.4rem;
+    }
+
+    label {
+        margin-bottom: 1rem;
+    }
+
+    main form.textOn input {
+        width: 80%;
+    }
+
+    div.resposta {
+        padding: 2rem;
+        font-size: 5rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    main {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    main {
+        width: 90%;
+    }
 }
